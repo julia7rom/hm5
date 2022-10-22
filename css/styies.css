@@ -18,6 +18,8 @@ padding: 0;}
 body {font-family:'Roboto', sans-serif;}
 button {border:none ;}
 .container{
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: 1200px;
   padding-left: 15px;
   padding-right:15px;
@@ -132,10 +134,7 @@ cursor: pointer;
 padding: 10px 32px;
 border-radius: 4px;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .arguments-li{min-width: 270px;}
 .arguments-li:not(:last-child){
   margin-right: 30px;
