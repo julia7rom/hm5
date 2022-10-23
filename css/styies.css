@@ -191,6 +191,7 @@ color: #757575;
   background-position: center;
   background-color: #F5F4FA;
   margin-bottom:30px;
+  border-radius: 4px;
   }
 .arguments-li:nth-child(1)::before{
   background-image: url("../img/antennaa.svg");
@@ -223,6 +224,7 @@ align-items: center;}
 .img-li:not(:last-child){
   margin-right: 30px;
 }
+
 .team{
   display: flex;
   align-items: center;
@@ -234,6 +236,7 @@ align-items: center;}
 .team-li {
   box-shadow: 0px 2px 1px 0px #00000033,0px 1px 1px 0px #00000024,0px 1px 3px 0px #0000001F;
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name  {
@@ -300,6 +303,7 @@ margin-bottom: 16px;
   transition-property: fill, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
 }
 .client-a:hover,
 .client-a:focus {
@@ -355,6 +359,7 @@ padding-bottom: 60px;}
 .button-portfolio  :focus {
   background-color:#2196F3;
   color: #FFFFFF;
+  border-radius: 4px;
 }
 .button-portfolio-ul {
 display: flex;
@@ -460,12 +465,13 @@ margin-right: 70px;
 }
 .main-li{
   transition-property: box-shadow;
-  transition-duration: 250ms;
+  transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-li:hover,
 .main-li:focus{
   box-shadow: 1px 4px 6px 0px #00000029,0px 4px 4px 0px #0000000F,0px 1px 1px 0px #0000001F;
+  
 }
 .overlay {
   position: absolute;
@@ -484,6 +490,8 @@ margin-right: 70px;
   overflow: hidden;
   transform: translateY(100%);
   transition: transform 300ms linear;
+  transition-property: transform;
+  transition-duration: 250ms;
 }
 .main-li-img{
   position: relative;
@@ -492,6 +500,8 @@ margin-right: 70px;
 .main-li-a:hover .overlay,
 .main-li-a:focus .overlay{
  transform: translateY(0%);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .backdrop{
   position: fixed;
@@ -531,5 +541,27 @@ margin-right: 70px;
   padding: 0;
   cursor: pointer;
 }
-
-
+.p-six{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform:uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    
+    
+}
+.name-img-div{
+  position: absolute;
+  width: 370px;
+  bottom: 0;
+  
+}
+.img-ul{
+  position: relative;
+}
